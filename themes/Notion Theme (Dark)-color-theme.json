@@ -56,15 +56,21 @@
 				"foreground": "#d1949e"
 			}
 		},
+    {
+        "scope": "entity.name.tag",
+        "settings": {
+            "foreground": "#d1949e"
+        }
+    },
 		{
 			"scope": [
-                "entity.name.tag",
                 "string.html",
                 "string.quoted.double.html",
+                "string.quoted.single.html",
                 "string.quoted.double.js.jsx"
             ],
 			"settings": {
-				"foreground": "#d1949e"
+				"foreground": "#BDE051"
 			}
 		},
 		{
@@ -564,8 +570,8 @@
 		"editor.selectionBackground": "#5398d83a",
         "editor.lineHighlightBackground": "#00000000",
         "editor.lineHighlightBorder": "#00000000",
-        "editorIndentGuide.background": "#222222",
-        "editorIndentGuide.activeBackground": "#302f2f",
+        "editorIndentGuide.background1": "#222222",
+        "editorIndentGuide.activeBackground1": "#302f2f",
         "editorBracketMatch.border": "#00000000",
         "editorBracketMatch.background": "#5398d83a",
         "editor.selectionHighlightBackground": "#5398d83a",
@@ -614,5 +620,6 @@
         "editorLineNumber.foreground": "#cdcccc4b",
         "editorLineNumber.activeForeground": "#cdccccad"
 	},
-	"name": "Notion Code Block (Dark)"
+	"name": "Notion Code Block (Dark)",
+  "type": "dark"
 }
