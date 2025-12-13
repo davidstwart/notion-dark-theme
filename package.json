@@ -1,12 +1,12 @@
 {
-    "name": "notion-theme--dark",
-    "displayName": "Notion Theme (Dark)",
+    "name": "notion-dark-theme",
+    "displayName": "Notion Dark Theme",
     "description": "Theme based on Notion's code block",
-    "author": "Tye Porter <tyeporterapps@gmail.com>",
-    "publisher": "4orter",
+    "author": "David Stwart (fork based on original by Tye Porter)",
+    "publisher": "davidstwart",
     "license": "MIT",
     "icon": "icon.png",
-    "version": "1.0.3",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -16,9 +16,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Notion Theme (Dark)",
+                "label": "Notion Theme Dark - Custom",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Notion Theme (Dark)-color-theme.json"
+                "path": "./themes/Notion Dark Theme.json"
             }
         ]
     },
